@@ -2139,6 +2139,10 @@ video {
     font-size: 65px;
   }
 
+  .md\:text-\[12px\] {
+    font-size: 12px;
+  }
+
   .md\:leading-\[20px\] {
     line-height: 20px;
   }
