@@ -642,6 +642,22 @@ video {
   top: 3%;
 }
 
+.left-5 {
+  left: 1.25rem;
+}
+
+.right-5 {
+  right: 1.25rem;
+}
+
+.left-1 {
+  left: 0.25rem;
+}
+
+.right-1 {
+  right: 0.25rem;
+}
+
 .z-10 {
   z-index: 10;
 }
@@ -842,6 +858,10 @@ video {
 
 .mt-\[15\%\] {
   margin-top: 15%;
+}
+
+.mt-\[17\%\] {
+  margin-top: 17%;
 }
 
 .flex {
