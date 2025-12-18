@@ -1908,6 +1908,10 @@ video {
     margin-top: 45%;
   }
 
+  .md\:mt-5 {
+    margin-top: 1.25rem;
+  }
+
   .md\:flex {
     display: flex;
   }
