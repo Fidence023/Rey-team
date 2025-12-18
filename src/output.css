@@ -1001,6 +1001,10 @@ video {
   height: 100vh;
 }
 
+.h-\[5\%\] {
+  height: 5%;
+}
+
 .w-1\/2 {
   width: 50%;
 }
@@ -1073,6 +1077,14 @@ video {
   width: 48%;
 }
 
+.w-12 {
+  width: 3rem;
+}
+
+.w-\[80px\] {
+  width: 80px;
+}
+
 @keyframes spin {
   to {
     transform: rotate(360deg);
@@ -1093,6 +1105,10 @@ video {
 
 .grid-cols-2 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .flex-row {
@@ -1409,6 +1425,14 @@ video {
 
 .pt-20 {
   padding-top: 5rem;
+}
+
+.pt-10 {
+  padding-top: 2.5rem;
+}
+
+.pt-7 {
+  padding-top: 1.75rem;
 }
 
 .text-center {
@@ -1751,6 +1775,10 @@ video {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .sm\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
   .sm\:space-y-0 > :not([hidden]) ~ :not([hidden]) {
     --tw-space-y-reverse: 0;
     margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
@@ -1972,6 +2000,10 @@ video {
     height: 100%;
   }
 
+  .md\:h-\[8\%\] {
+    height: 8%;
+  }
+
   .md\:w-1\/2 {
     width: 50%;
   }
@@ -2050,6 +2082,14 @@ video {
 
   .md\:w-full {
     width: 100%;
+  }
+
+  .md\:w-14 {
+    width: 3.5rem;
+  }
+
+  .md\:w-\[100px\] {
+    width: 100px;
   }
 
   .md\:-rotate-45 {
@@ -2145,6 +2185,10 @@ video {
 
   .md\:pl-\[15\%\] {
     padding-left: 15%;
+  }
+
+  .md\:pt-20 {
+    padding-top: 5rem;
   }
 
   .md\:text-\[15px\] {
